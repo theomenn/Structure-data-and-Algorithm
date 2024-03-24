@@ -14,3 +14,7 @@ def readArray(x, N):
     for i in range(0, N):
         read = int(input(f"nilai ke-{i+1} = "))
         x.append(read)
+        
+def printArray(x):
+    for i in x:
+        print(x)
