@@ -17,4 +17,4 @@ def readArray(x, N):
         
 def res(x):
     for i in x:
-        print(x)
+        print(x, end=" ")
